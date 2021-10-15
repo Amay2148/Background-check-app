@@ -20,7 +20,13 @@ POST api/auth/signin for User Login.
 
 The following flow shows you an overview of Requests and Responses that React Client will make or receive.
 
-<p><img align="right" src="https://raw.githubusercontent.com/bezkoder/react-jwt-auth/master/react-jwt-authentication-flow.png" /></p>
+<p><img align="center" src="https://raw.githubusercontent.com/bezkoder/react-jwt-auth/master/react-jwt-authentication-flow.png" /></p>
+
+
+
+
+
+
 
 
 This React Client must add a JWT to HTTP Header before sending request to protected resources.
