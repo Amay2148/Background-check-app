@@ -1,7 +1,23 @@
 # Background-check-app
-Authenticate user using React.js. Created a Login component where we will send the Login Credentials and get back a JWT Token.
+ Build a React JWT Authentication example with LocalStorage, React Router,  Bootstrap (without Redux).Procedure is as follows:
 
-Then we will use that JWT Token as a Bearer Token in the Request Headers to retrieve the Authenticated User. 
+JWT Authentication Flow for User Signup & User Login.
 
-We will also add the Logout functionality.
+Project Structure for React JWT Authentication (without Redux) with LocalStorage, React Router.
+
+Creating React Components with Form Validation.
+
+React Components for accessing protected Resources (Authorization).
+
+Dynamic Navigation Bar in React App.
+
+## User Registration and User Login Flow
+For JWT Authentication, we’re gonna call 2 endpoints:
+
+POST api/auth/signup for User Registration
+POST api/auth/signin for User Login
+The following flow shows you an overview of Requests and Responses that React Client will make or receive. This React Client must add a JWT to HTTP Header before sending request to protected resources.
+
+
+
 
