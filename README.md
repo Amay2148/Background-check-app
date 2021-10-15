@@ -14,9 +14,16 @@ Dynamic Navigation Bar in React App.
 ## User Registration and User Login Flow
 For JWT Authentication, we’re gonna call 2 endpoints:
 
-POST api/auth/signup for User Registration
-POST api/auth/signin for User Login
-The following flow shows you an overview of Requests and Responses that React Client will make or receive. This React Client must add a JWT to HTTP Header before sending request to protected resources.
+POST api/auth/signup for User Registration.
+
+POST api/auth/signin for User Login.
+
+The following flow shows you an overview of Requests and Responses that React Client will make or receive.
+
+<p><img align="right" src="https://raw.githubusercontent.com/bezkoder/react-jwt-auth/master/react-jwt-authentication-flow.png" /></p>
+
+
+This React Client must add a JWT to HTTP Header before sending request to protected resources.
 
 
 
